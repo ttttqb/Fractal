@@ -242,8 +242,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3815b367cb7caff41b39773fbc62a44c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: 8f4bb4fa00698af45993d3c02b731392, type: 2}
+  maxDepth: 4
+  childScale: 0.5
+  meshes:
+  - {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  spawnProbability: 0.8
+  maxRotationSpeed: 60
+  maxTwist: 20
 --- !u!4 &754871801
 Transform:
   m_ObjectHideFlags: 0
@@ -334,10 +341,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.10340683, y: -0.13900593, z: -0.0295556, w: 0.9844343}
+  m_LocalPosition: {x: 0.75, y: 0.92, z: -4.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 11.267, y: -16.576, z: -5.0860004}
